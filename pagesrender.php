@@ -139,7 +139,6 @@ function dpcdn_manage_option_page(){
 		?>
 		<form method="POST" action="">
 		<h2>CSS CDN</h2>
-		<?php $dpcache->set("pippo","pippo");?>
 		<label>Insert CSS default location</label><br>
 		<input type="text" name="cssdefault" size="50" value="<?php echo $cssdefault; ?>"><br>
 		<label>Use CSS default location?</label>&nbsp;<input type="checkbox" name="usecssdefault" <?php echo  $usecssdefault; ?>><br>
